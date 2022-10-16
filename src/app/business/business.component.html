@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 mt-4" *ngFor="let list of newsList">
+            <div class="card">
+                <img src="{{list.urlToImage}}" alt="news item">
+                <div class="card-body">
+                    <h5 class="card-title"> {{list.title}} </h5>
+                    <p class="card-text"> {{list.description}}</p>
+                    <a href="{{list.url}}" target="_blank" class="btn btn-primary">Readmore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

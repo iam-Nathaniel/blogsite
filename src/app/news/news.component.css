@@ -1,0 +1,15 @@
+div.card {
+    width: 18rem;
+    margin: 10px;
+     /* height: 10rem; */
+}
+
+img{
+    width: inherit;
+    height: 170px;
+}
+
+.card-title{
+    font-size: 17px;
+    font-weight: bold;
+}
